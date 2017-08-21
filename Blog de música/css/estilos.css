@@ -1,0 +1,67 @@
+/* -- HEADER -- */
+header{
+  background: rgba(210, 220, 222, 0.76);
+  box-shadow: inset 4px 4px 5px rgba(21, 4, 43, 0.87);
+}
+
+header .img-logo{
+  width: 200px;
+  padding: 1%;
+}
+
+header .img-redes{
+  width: 32px;
+  padding-top: 25%;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+
+/* -- Sección articulos -- */
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.articulo {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:2px solid #444;
+}
+
+.articulo .titulo-articulo a {
+	color:#444;
+}
+
+.articulo img {
+width: 100%;
+padding-top: 1%;
+}
+
+.articulo .contenedor-botones {
+	width: 100%;
+}
+
+/* -- Media Querie -- */
+@media screen and (max-width: 860px) {
+
+  header .img-logo{
+    width: 250px;
+    padding-bottom: 2%;
+    padding-left:25%;
+  }
+
+  header .img-redes{
+    width: 25px;
+    padding-top: 0;
+    padding-bottom: 1%;
+  }
+
+ .articulo img {
+		width: 100%;
+		margin-bottom: 2%;
+		margin-right: 0;
+	}
+}

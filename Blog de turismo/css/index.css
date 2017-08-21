@@ -1,0 +1,48 @@
+
+
+.logo{
+  width: 98%;
+  float: left;
+}
+
+.slogan{
+font-weight: bolder;
+text-shadow: 1px 1px 1px rgb(10, 37, 73);
+
+}
+
+div[class*="columna"]{
+  min-height: 50rem;
+}
+
+.tayrona{
+  text-align: justify;
+}
+
+.card-title{
+  font-weight: bolder;
+  text-shadow: 1px 2px 2px rgb(3, 22, 34);
+}
+
+h5{
+  padding-bottom: 3%;
+  border-bottom: 1px solid rgb(2, 19, 37);
+}
+
+@media screen and (max-width: 600px) {
+.logo{
+  width: 120%;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.slogan{
+  padding: 0;
+  text-align: center;
+}
+
+.contenedor-menu{
+  padding: 0;
+}
+
+}

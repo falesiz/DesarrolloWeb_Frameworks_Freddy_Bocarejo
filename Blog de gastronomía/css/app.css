@@ -1,0 +1,87 @@
+
+
+body {
+  background-image: url("../img/co1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+header{
+  background-color: rgb(226, 229, 230);
+  box-shadow: 2px 3px 4px rgb(111, 84, 2);
+  margin-bottom: 2%;
+}
+
+.titulo{
+  color: rgb(152, 120, 6);
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px rgba(87, 45, 8, 0.70);
+}
+
+.subtitulo{
+  color: rgb(87, 74, 7);
+  font-weight: bolder;
+}
+
+.navbar{
+  margin-top: 4%;
+  }
+
+.secondary callout img{
+  width: 100%;
+  max-height: 100px;
+}
+
+div.secondary.callout.text-center{
+  min-height: 100px;
+}
+
+/*Lista de historial*/
+.lista li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lista {
+    width: auto;
+    height: auto;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,.73), 0px 0px 18px 0px rgba(0,0,0,.13);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,.73), 0px 0px 18px 0px rgba(0,0,0,.13);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,.73), 0px 0px 18px 0px rgba(0,0,0,.13);
+}
+.lista > li > a {
+    background-color: #616975;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(114, 122, 134)),to(rgb(80, 88, 100)));
+    background-image: -webkit-linear-gradient(top, rgb(246, 232, 249), rgb(230, 229, 230));
+    background-image: -moz-linear-gradient(top, rgb(246, 232, 249), rgb(230, 229, 230));
+    background-image: -o-linear-gradient(top, rgb(246, 232, 249), rgb(230, 229, 230));
+    background-image: -ms-linear-gradient(top, rgb(246, 232, 249), rgb(230, 229, 230));
+    background-image: linear-gradient(top, rgb(246, 232, 249), rgb(230, 229, 230));
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#727a86', EndColorStr='#505864');
+    border-bottom: 1px solid #33373d;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #878e98;
+    -moz-box-shadow: inset 0px 1px 0px 0px #878e98;
+    box-shadow: inset 0px 1px 0px 0px #878e98;
+    width: 100%;
+    height: 2.75em;
+    line-height: 2.75em;
+    text-indent: 2.75em;
+    display: block;
+    position: relative;
+    font-weight: 600;
+    color: #111;
+    }
+
+ .total{
+    background-color: rgba(45, 163, 245, 0.32);
+   }
+
+
+/*Media query para móbiles*/
+@media screen and (max-width:720px) {
+  .titulo, .subtitulo{
+    text-align: center;
+  }
+
+}
